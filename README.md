@@ -12,4 +12,4 @@ base_model = AutoModelForSequenceClassification.from_pretrained("roberta-base", 
 model = PeftModel.from_pretrained(base_model, "./official_submission/model_checkpoint")
 ```
 ## Final Model
-Our final model referenced in the report can be found in AsymmetricAdaLora.ipynb.
+Our final model referenced in the report can be found in AsymmetricAdaLora.ipynb and AsymmetricAdaLora.pdf.
